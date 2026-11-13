@@ -6,24 +6,39 @@ Oltre a questo ogni cliente può usufruire di altri servizi extra come colazioni
 Altri servizi sono la piscina, che ha una disponibilità limitata di ingressi a 20 o il noleggio di un pedalò, a patto che uno dei 5 in dotazione sia libero.
 Al termine della sua esperienza può inoltre lasciare un feedback al servizio da lui utilizzato per fare in modo che altri utenti possano farne tesoro, la recensione sarà composta da una valutazione da 1 a 5 e un piccolo commento scritto.
 
-L'obiettivo è permettere al gestore di poter:
+Gli obiettivi del sistema per il cliente sono:
+- Rendere facilmente consultabili i servizi disponibili e i relativi prezzi
+- Permettere al cliente di tenere sotto controllo prenotazioni e pagamenti
+
+Gli obiettivi del sistema per il gestore sono:
 - Registrare clienti
 - Gestire la disponibilità degli ombrelloni
 - Raccogliere le prenotazioni e i feedback dei clienti
 - Monitorare i pagamenti per prenotazione e servizi extra
+- Gestione dipendenti
+- Mantenere aggiornati il catalogo dei prodotti e i turni dei dipendenti
+- Ottenere un riepilogo semplice degli incassi
 
-Le funzionalità offerte dal sistema sono le seguenti riguardanti il cliente:
+Le funzionalità offerte dal sistema riguardanti il cliente sono:
 - Registrazione di un nuovo cliente con tutti i suoi dati personali (nome, cognome, email e numero di telefono)
 - Visualizzazione degli eventuali ombrelloni disponibili in dato giorno
 - Prenotazione di un ombrellone per un preciso intervallo di date
 - Pagamento associato ad una prenotazione o ad un servizio extra
 - Inserire una recensione relativa ad un ordine effettuato
+- Consultazione del menu del bar e del ristorante con i relativi prezzi
+- Visualizzazione dello storico delle proprie prenotazioni e dei pagamenti effettuati
+- Modifica dei propri dati di contatto (email e numero di telefono)
 
 Mentre quelle riguardanti il gestore dello stabilimento:
 - Visualizzazione di tutte le prenotazioni per un dato giorno
 - Visualizzazione della percentuale di occupazione degli ombrelloni in una determinata data
-- Visualizzare l''elenco delle recensioni lasciate per un determinato servizio
+- Visualizzare l'elenco delle recensioni lasciate per un determinato servizio
 - Visualizzare quanti utilizzatori dei vari servizi ci siano stati nell'ultimo mese
 - Visualizzare quale sia la pietanza più ordinata sia al bar che al ristorante
+- Visualizzare storico dipendenti
+- Visualizzazione dei turni dei dipendenti
+- Inserimento, modifica e disattivazione di pietanze e bevande, con gestione di nome e prezzo
+- Inserimento e modifica dei turni dei dipendenti
+- Visualizzazione del totale degli incassi in un giorno o in un intervallo di date
 
 Linguaggio: SQL e MySQL per la parte DB, HTML/PHP/Javascript e il browser Web per il lato web
