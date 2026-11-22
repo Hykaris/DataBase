@@ -1,0 +1,10 @@
+BM_Main:
+    Fare ER (da fare assieme)
+    schema logico 
+    revisione schema logico 
+    crere script creazione db 
+    revisione script creaizione db
+
+XAMP:
+    tirare su tutto
+        creazione template e scheletri da fare assieme per poi dividere il lavoro
